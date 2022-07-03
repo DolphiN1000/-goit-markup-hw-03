@@ -22,11 +22,16 @@ body {
 }
 
 .nav-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-size: 14;
   font-weight: 500;
   line-height: 1.14;
   color: var(--secondary-color);
+  margin-top: 32;
+  margin-right: 25px;
+  margin-right: 25px;
 }
 
 .nav-link:hover,
@@ -38,6 +43,8 @@ body {
   color:var(--current-color);
 }
 .contact-nav-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-size: 14;
   font-weight: 500;
@@ -71,6 +78,9 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
+  padding-left: 215px;
+  padding-right: 93px;
+
 }
 
 .footer-logo {
@@ -179,7 +189,21 @@ span {
   text-transform: uppercase;
 }
 
+.section-heder > .site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.section-heder> .list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
 .section-heder {
+
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .section-description {
